@@ -13,7 +13,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Genişliği artırdık */
+    width: 400px;
     text-align: center;
 }
 
@@ -28,6 +28,9 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #options button {
@@ -52,4 +55,16 @@ button {
 
 #jump-to {
     margin-top: 20px;
+}
+
+.correct::after {
+    content: '✔️';
+    color: green;
+    margin-left: 10px;
+}
+
+.incorrect::after {
+    content: '❌';
+    color: red;
+    margin-left: 10px;
 }
