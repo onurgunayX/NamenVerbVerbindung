@@ -516,19 +516,25 @@ function showQuestion(index) {
     shuffledOptions.forEach(option => {
         const button = document.createElement('button');
         button.textContent = option;
-        button.onclick = () => checkAnswer(option, question.answer);
+        button.onclick = () => checkAnswer(button, option, question.answer);
         optionsContainer.appendChild(button);
     });
 
     statusElement.textContent = `Frage ${index + 1} von ${questions.length}`;
 }
 
-function checkAnswer(selectedOption, correctAnswer) {
+function checkAnswer(button, selectedOption, correctAnswer) {
     if (selectedOption === correctAnswer) {
-        alert("Richtig!");
+        button.classList.add('correct');
     } else {
-        alert(`Falsch! Die richtige Antwort ist: ${correctAnswer}`);
+        button.classList.add('incorrect');
     }
+    disableOptions();
+}
+
+function disableOptions() {
+    const buttons = document.querySelectorAll('#options button');
+    buttons.forEach(button => button.disabled = true);
 }
 
 document.getElementById('prev-button').onclick = () => {
@@ -548,7 +554,9 @@ document.getElementById('next-button').onclick = () => {
 };
 
 document.getElementById('jump-button').onclick = () => {
-    const questionNumber = parseInt(document.getElementById('question-number').value, 10);
+    const questionNumberInput = document.getElementById('question-number');
+    const questionNumber = parseInt(questionNumberInput.value, 10);
+
     if (!isNaN(questionNumber) && questionNumber >= 1 && questionNumber <= questions.length) {
         currentQuestion = questionNumber - 1;
         showQuestion(currentQuestion);
