@@ -523,12 +523,16 @@ function showQuestion(index) {
     statusElement.textContent = `Frage ${index + 1} von ${questions.length}`;
 }
 
-function checkAnswer(button, selectedOption, correctAnswer) {
-    if (selectedOption === correctAnswer) {
-        button.classList.add('correct');
-    } else {
-        button.classList.add('incorrect');
-    }
+function checkAnswer(selectedButton, selectedOption, correctAnswer) {
+    const buttons = document.querySelectorAll('#options button');
+    buttons.forEach(button => {
+        if (button.textContent === correctAnswer) {
+            button.classList.add('correct');
+        }
+        if (button === selectedButton && selectedOption !== correctAnswer) {
+            button.classList.add('incorrect');
+        }
+    });
     disableOptions();
 }
 
