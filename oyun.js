@@ -547,5 +547,15 @@ document.getElementById('next-button').onclick = () => {
     }
 };
 
+document.getElementById('jump-button').onclick = () => {
+    const questionNumber = parseInt(document.getElementById('question-number').value, 10);
+    if (!isNaN(questionNumber) && questionNumber >= 1 && questionNumber <= questions.length) {
+        currentQuestion = questionNumber - 1;
+        showQuestion(currentQuestion);
+    } else {
+        alert("Bitte eine gültige Fragenummer eingeben!");
+    }
+};
+
 // İlk soruyu göster
 showQuestion(currentQuestion);
