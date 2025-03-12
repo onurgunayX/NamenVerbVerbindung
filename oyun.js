@@ -206,22 +206,22 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir sollten keinen negativen _____ auf die Kinder nehmen.",
-        "options": ["Einfluss", "Druck", "Eindruck"],
+        "options": ["Einfluss", "Deadline", "Eindruck"],
         "answer": "Einfluss"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Lass uns das Projekt zu _____ bringen.",
-        "options": ["Ende", "Abschluss", "Ziel"],
+        "options": ["Ende", "Unbekannt", "Ziel"],
         "answer": "Ende"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Nach langem Überlegen habe ich einen _____ gefasst.",
-        "options": ["Entschluss", "Plan", "Entscheidung"],
+        "options": ["Entschluss", "Plan", "Ende"],
         "answer": "Entschluss"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir müssen heute noch eine _____ treffen.",
-        "options": ["Entscheidung", "Wahl", "Auswahl"],
+        "options": ["Entscheidung", "Frage", "Plan"],
         "answer": "Entscheidung"
     },
     {
@@ -231,22 +231,22 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Der Lehrer hat uns die _____ erteilt, den Raum zu verlassen.",
-        "options": ["Erlaubnis", "Genehmigung", "Freiheit"],
+        "options": ["Erlaubnis", "Fehler", "Freiheit"],
         "answer": "Erlaubnis"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich habe einen großen _____ begangen.",
-        "options": ["Fehler", "Irrtum", "Versäumnis"],
+        "options": ["Fehler", "Erfolg", "Realität"],
         "answer": "Fehler"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Das neue Gesetz wird viele Änderungen zur _____ haben.",
-        "options": ["Folge", "Konsequenz", "Ergebnis"],
+        "options": ["Folge", "Anfrage", "Ergebnis"],
         "answer": "Folge"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir müssen eine _____ stellen, um Unterstützung zu erhalten.",
-        "options": ["Forderung", "Bitte", "Anfrage"],
+        "options": ["Forderung", "Entscheidung", "Frage"],
         "answer": "Forderung"
     },
     {
@@ -256,37 +256,37 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Diese Option steht außer _____.",
-        "options": ["Frage", "Zweifel", "Diskussion"],
+        "options": ["Frage", "Meinung", "Forderung"],
         "answer": "Frage"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich möchte eine _____ stellen.",
-        "options": ["Frage", "Anfrage", "Bitte"],
+        "options": ["Frage", "Sorgen", "Sicherheit"],
         "answer": "Frage"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich mache mir viele _____ über die Zukunft.",
-        "options": ["Gedanken", "Sorgen", "Überlegungen"],
+        "options": ["Gedanken", "Fragen", "Überlegungen"],
         "answer": "Gedanken"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Das Gebäude ist in großer _____.",
-        "options": ["Gefahr", "Sorge", "Unsicherheit"],
+        "options": ["Gefahr", "Sorge", "Hoffnung"],
         "answer": "Gefahr"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich hoffe, ich habe die _____ zu lernen.",
-        "options": ["Gelegenheit", "Chance", "Möglichkeit"],
+        "options": ["Gelegenheit", "Entscheidung", "Frage"],
         "answer": "Gelegenheit"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir führten ein intensives _____ über die Pläne.",
-        "options": ["Gespräch", "Gespräch", "Diskussion"],
+        "options": ["Gespräch", "Streit", "Direkt"],
         "answer": "Gespräch"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Er konnte den _____ nicht angeben.",
-        "options": ["Grund", "Ursache", "Anlass"],
+        "options": ["Grund", "Frage", "Antrag"],
         "answer": "Grund"
     },
     {
@@ -296,7 +296,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Das Buch hat großes _____ geweckt.",
-        "options": ["Interesse", "Aufmerksamkeit", "Neugier"],
+        "options": ["Interesse", "Wunsch", "Tatigkeit"],
         "answer": "Interesse"
     },
     {
@@ -311,17 +311,17 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir müssen Kontakt mit dem Kunden _____.",
-        "options": ["aufnehmen", "herstellen", "erzeugen"],
+        "options": ["aufnehmen", "steigen", "erzeugen"],
         "answer": "aufnehmen"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Lass uns in Kontakt mit den Entwicklern _____.",
-        "options": ["treten", "kommen", "gehen"],
+        "options": ["treten", "widersprechen", "gehen"],
         "answer": "treten"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir müssen die _____ für die Renovierung tragen.",
-        "options": ["Kosten", "Ausgaben", "Aufwand"],
+        "options": ["Kosten", "Übergaben", "Aufwand"],
         "answer": "Kosten"
     },
     {
@@ -331,7 +331,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich hoffe, dass ich bald in der _____ bin, zu helfen.",
-        "options": ["Lage", "Position", "Fähigkeit"],
+        "options": ["Lage", "Kritik", "Fähigkeit"],
         "answer": "Lage"
     },
     {
@@ -361,17 +361,17 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir sollten an diesem _____ festhalten.",
-        "options": ["Plan", "Projekt", "Ziel"],
+        "options": ["Plan", "Erfolg", "Sorge"],
         "answer": "Plan"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich habe die Prüfung erfolgreich _____.",
-        "options": ["abgelegt", "bestanden", "erfolgt"],
+        "options": ["abgelegt", "anerkannt", "erfolgt"],
         "answer": "abgelegt"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Sie hat ihm großen _____ entgegengebracht.",
-        "options": ["Respekt", "Bewunderung", "Anerkennung"],
+        "options": ["Respekt", "Antwort", "Geduld"],
         "answer": "Respekt"
     },
     {
@@ -381,7 +381,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich muss dem Kunden eine _____ zu seinem Vorschlag geben.",
-        "options": ["Rückmeldung", "Antwort", "Erklärung"],
+        "options": ["Rückmeldung", "Achtung", "Erklärung"],
         "answer": "Rückmeldung"
     },
     {
@@ -391,12 +391,12 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Auch in stressigen Zeiten ist es wichtig, _____ zu bewahren.",
-        "options": ["Ruhe", "Gelassenheit", "Geduld"],
+        "options": ["Ruhe", "Euphorie", "Verwirrung"],
         "answer": "Ruhe"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Der Anwalt wird seinen Mandanten in _____ nehmen.",
-        "options": ["Schutz", "Verteidigung", "Sicherheit"],
+        "options": ["Schutz", "Verteidigung", "Ruhe"],
         "answer": "Schutz"
     },
     {
