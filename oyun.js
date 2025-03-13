@@ -401,7 +401,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Er macht sich viele _____ um seine berufliche Zukunft.",
-        "options": ["Sorgen", "Gedanken", "Überlegungen"],
+        "options": ["Sorgen", "Sprache", "Überlegungen"],
         "answer": "Sorgen"
     },
     {
@@ -410,13 +410,13 @@ const questions = [
         "answer": "aufs Spiel"
     },
     {
-        "question": "Bitte füllen Sie die Lücke aus: Wir sollten das Thema in der nächsten Sitzung zur _____ bringen.",
-        "options": ["Sprache", "Diskussion", "Erörterung"],
+        "question": "Bitte füllen Sie die Lücke aus: Ich muss noch einmal die Frage der Atommüllentsorgung zur ____ bringen.",
+        "options": ["Sprache", "Spiele", "Schutz"],
         "answer": "Sprache"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Dieses Thema wird oft zur _____ kommen.",
-        "options": ["Sprache", "Diskussion", "Erörterung"],
+        "options": ["Sprache", "Meinung", "Erörterung"],
         "answer": "Sprache"
     },
     {
@@ -436,7 +436,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir haben eine _____ für morgen Abend getroffen.",
-        "options": ["Verabredung", "Besprechung", "Treffen"],
+        "options": ["Verabredung", "Kontakt", "Punkt"],
         "answer": "Verabredung"
     },
     {
@@ -446,32 +446,32 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich werde mich mit dem neuen Kunden in _____ setzen.",
-        "options": ["Verbindung", "Kontakt", "Beziehung"],
+        "options": ["Verbindung", "Knopf", "Beziehung"],
         "answer": "Verbindung"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Diese Nachricht hat ihn in große _____ gebracht.",
-        "options": ["Verlegenheit", "Sorge", "Unruhe"],
+        "options": ["Verlegenheit", "Beziehung", "Ruhe"],
         "answer": "Verlegenheit"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Die Informationen stehen Ihnen jederzeit zur _____.",
-        "options": ["Verfügung", "Erreichbarkeit", "Nutzung"],
+        "options": ["Verfügung", "Erreichbarkeit", "Nutzen"],
         "answer": "Verfügung"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Wir können Ihnen die benötigten Mittel zur _____ stellen.",
-        "options": ["Verfügung", "Verwaltung", "Nutzung"],
+        "options": ["Verfügung", "Verwaltung", "Verlegenheit"],
         "answer": "Verfügung"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich kann für diese schwierige Situation _____ aufbringen.",
-        "options": ["Verständnis", "Geduld", "Nachsicht"],
+        "options": ["Verständnis", "Bar", "Absicht"],
         "answer": "Verständnis"
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Der Lehrer gab dem fleißigen Schüler den _____.",
-        "options": ["Vorzug", "Vorteil", "Vorrang"],
+        "options": ["Vorzug", "Vorteil", "Vorgang"],
         "answer": "Vorzug"
     },
     {
@@ -481,7 +481,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Das Thema steht im _____ der Diskussionen.",
-        "options": ["Zentrum", "Mittelpunkt", "Fokus"],
+        "options": ["Zentrum", "Mittel", "Fokusieren"],
         "answer": "Zentrum"
     },
     {
@@ -491,7 +491,7 @@ const questions = [
     },
     {
         "question": "Bitte füllen Sie die Lücke aus: Ich habe _____ an der Richtigkeit dieser Informationen.",
-        "options": ["Zweifel", "Fragen", "Bedenken"],
+        "options": ["Zweifel", "Fragen", "Danken"],
         "answer": "Zweifel"
     },
     {
